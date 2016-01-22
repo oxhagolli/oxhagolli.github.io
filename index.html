@@ -1,43 +1,58 @@
-<!--
-  Website:  http://oxhagolli.github.io
-            http://www.orensxhagolli.com
-  Author:   Orens Xhagolli <orens.xhagolli@hotmail.com>
-  Github:   https://www.github.com/oxhagolli/
-  Source:   https://www.github.com/oxhagolli/oxhagolli.github.io
-
-  Welcome to my website.
-  If you think I can improve my code, please let me know.
--->
-
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <!-- META TAGS -->
-    <meta charset="utf-8" />
-    <!-- TITLE TAG -->
-    <title>Orens Xhagolli</title>
-
-    <!-- MISC TAGS -->
-    <meta http-equiv="refresh" content="0; url=http://github.com/oxhagolli" />
-    <!-- STYLESHEET TAGS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/
-        css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/
-        css/bootstrap-theme.min.css" />
-
-    <!-- SCRIPT TAGS -->
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/
-        js/bootstrap.min.js"></script>
-  </head>
-
-  <head>
-    <h1>Welcome to my github page</h1>
-    <p>UNDER CONSTRUCTION</p>
-  </head>
+    <head>
+        <meta charset="utf-8" />
+        <title>Orens Xhagolli - Projects</title>
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="stylesheet" href="http://www.orensxhagolli.com/assets/css/rules.css" />
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" />
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script>
+            $(function(){
+                $("#accordion").accordion();
+            });
+        </script>
+    </head>
+    <body>
+        <div id="long-container">
+            <h1>Orens Xhagolli - Projects</h1>
+            <div id="accordion">
+                <h3>Alpha Pill Pal</h3>
+                <div>
+                    <p>My most recent hackathon project was at UB Hacking (University at Buffalo), where my team and I created a web service that helps patients and their doctors set text or call reminders to take their medicine when needed. This service allows the prescriber to set the reminder without the user having to do anything. We use the twilio API to send texts and calls. This project won the Best Health Hack prize. Languages &amp; frameworks: Python, Django, Twilio, HTML, CSS</p>
+                </div>
+                <h3>MYOwnLife</h3>
+                <div>
+                    <p>At HackPSU (Pennsylvania State University), my team and I created MYOwnLife which is a project that uses a MYO armband and a seizure detection algorithm that we wrote to help people that are suffering from epilepsy. We take in the input from the MYO armband, process it and if we detect anything outside of the normal, we activate a "risk event" on supplementary app that we wrote. If the event is activated, the app will ask the user if everything is okay, and if the user does not respond within 5 seconds, we call a predetermined number which could be a best friend or a family member. The user also has the option to immediately call 911. We won the IEEE prize for this project. Languages &amp; frameworks: Java, C, Python, MySQL, PHP, Android, MYO</p>
+                </div>
+                <h3>UFC Predictor</h3>
+                <div>
+                    <p>This is a personal project that started off orginially proposed as a business idea by Olsjon Baxhija. I wrote a python script that retreives match predictions from the betting companies and runs a fairly simple analysis on past matches, predicting the winner and subsequently whether you should bet or not. The predictions passed testing on an extended data set and yielded very favorable returns. Olsjon and I have agreed to open source this project soon.</p>
+                </div>
+                <h3>Langmatch</h3>
+                <div>
+                    <p>One of the most interesting hackathon projects I would say is Langmatch at HackBU (Boston University). My team and I created an android app that lets you match images with words in different languages. Languages &amp; frameworks: Java, Android</p>
+                </div>
+            </div>
+            <p>
+                Visit my <a href="https://github.com/oxhagolli">GitHub Account</a> for more projects and code or check out my <a href="http://www.devpost.com/orensxhagolli">Devpost Account</a> for some more hackathon projects.
+            </p>
+            <div id="navbar">
+                <ul>
+                    <li><a href="http://www.orensxhagolli.com/">Home</a></li>
+                    <li><a href="http://www.orensxhagolli.com/about.html">About Me</a></li>
+                    <li class="active"><a href="#">My Projects</a></li>
+                    <li><a href="http://www.orensxhagolli.com/oxhagolli-resume.pdf">R&eacute;sum&eacute;</a></li>
+                    <li><a href="mailto:oxx6096@rit.edu">Contact Me</a></li>
+                </ul>
+            </div>
+            
+            <ul id="social">
+                <li><a href="https://www.linkedin.com/in/orens-xhagolli-6804aa4a"><img src="http://orensxhagolli.com/assets/images/li.png" /></a></li>
+                <li><a href="https://facebook.com/orens.xhagolli"><img src="http://orensxhagolli.com/assets/images/fb.png" /></a></li>
+                <li><a href="https://twitter.com/orens_x"><img src="http://orensxhagolli.com/assets/images/tw.png" /></a></li>
+            </ul>
+        </div>
+    </body>
 </html>
