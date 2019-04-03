@@ -3,6 +3,7 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
+/// Modified by Orens Xhagolli
 
 /* Header */
 
@@ -54,10 +55,10 @@
 			border: solid _size(border-width) _palette(border);
 			border-radius: 100%;
 
-			.icon {
-				&:before {
-					font-size: 2rem;
-				}
+			.pic {
+				border-radius: 50%;
+				height: 100%;
+				width: 100%;
 			}
 		}
 
